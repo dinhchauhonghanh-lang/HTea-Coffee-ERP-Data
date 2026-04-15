@@ -1,11 +1,22 @@
-# HTea-Coffee-ERP-Data
-SQL Database Schema &amp; Analytical Queries for H-Tea &amp; Coffee ERP System (SAP O2C Simulation)
-## 📊 Database Schema (ERD)
-Dưới đây là cấu trúc cơ sở dữ liệu mô phỏng quy trình O2C:
-![ERD Diagram](Link_ảnh_ERD_của_Cun)
+H-Tea & Coffee Sales Intelligence Dashboard
 
-## 🎯 Key Queries
-Dự án bao gồm các câu lệnh truy vấn phân tích:
-- Doanh thu theo sản phẩm/khách hàng.
-- Theo dõi tồn kho theo mã Lô (Batch).
-- Kiểm soát công nợ hóa đơn (Paid/Unpaid).
+1. Giới thiệu
+Dự án phân tích dữ liệu bán hàng thực tế của chuỗi H-Tea & Coffee, tập trung vào việc chuẩn hóa dữ liệu từ SQL và xây dựng hệ thống báo cáo quản trị thông minh trên Excel.
+
+2. Công nghệ sử dụng
+- SQL Server: Truy vấn và trích xuất dữ liệu gốc.
+- Excel Advanced: XLOOKUP, IFS, Power Pivot, Conditional Formatting.
+- Validation: Chuẩn hóa Master Data.
+- UI/UX Design: Dark Mode Dashboard với hiệu ứng Neon.
+
+3. Các tính năng chính
+- Price Integrity Audit: Tự động đối soát giá bán để phát hiện sai lệch.
+- Customer Segmentation: Phân hạng khách hàng Diamond/Gold/Silver dựa trên doanh thu.
+- Interactive Reporting: Hệ thống Slicer và Timeline cho phép lọc dữ liệu đa chiều.
+
+4. Cấu trúc File
+- Data_Source: Chứa dữ liệu thô.
+- Calculations/Calculations1: Chứa các bảng Pivot và công thức trung gian.
+- Dashboard: Giao diện báo cáo chính cho cấp quản lý.
+
+
